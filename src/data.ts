@@ -1,21 +1,21 @@
-import gwonyulImg from './assets/images/regenerated_image_1777742748093.png';
-import gwakdoImg from './assets/images/곽도_투명.png';
-import paengImg from './assets/images/팽실장_투명.png';
-import meiImg from './assets/images/메이_투명.png';
-import yanghoImg from './assets/images/양호_투명.png';
-import jinsabuImg from './assets/images/진사부_투명.png';
+import gwonyulImg from './assets/images/gwonyul.png';
+import gwakdoImg from './assets/images/gwakdo.png';
+import paengImg from './assets/images/paeng.png';
+import meiImg from './assets/images/mei.png';
+import yanghoImg from './assets/images/yangho.png';
+import jinsabuImg from './assets/images/jinsabu.png';
 
-import baekrangImg from './assets/images/백랑_투명.png';
-import doksaImg from './assets/images/독사_투명.png';
-import bulgomImg from './assets/images/불곰_투명.png';
-import jeokhoImg from './assets/images/적호_투명.png';
-import wrenchImg from './assets/images/렌치_투명.png';
-import ppiyagiImg from './assets/images/삐약이_투명.png';
+import baekrangImg from './assets/images/baekrang.png';
+import doksaImg from './assets/images/doksa.png';
+import bulgomImg from './assets/images/bulgom.png';
+import jeokhoImg from './assets/images/jeokho.png';
+import wrenchImg from './assets/images/wrench.png';
+import ppiyagiImg from './assets/images/ppiyagi.png';
 
-import haewonImg from './assets/images/서해원_투명.png';
-import sihyunImg from './assets/images/강시현_투명.png';
-import hongranImg from './assets/images/홍란_투명.png';
-import chunbaeImg from './assets/images/춘배_투명.png';
+import haewonImg from './assets/images/haewon.png';
+import sihyunImg from './assets/images/sihyun.png';
+import hongranImg from './assets/images/hongran.png';
+import chunbaeImg from './assets/images/chunbae.png';
 
 export const worldData = {
   title: "2005 월성 차이나타운",
