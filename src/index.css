@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;700;900&family=Noto+Sans+KR:wght@300;400;500;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Serif KR", serif;
+  --font-sans: "Noto Sans KR", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-noir-900: #0a0a0a;
+  --color-noir-800: #141414;
+  --color-noir-700: #1f1f1f;
+  
+  --color-dragon-red: #8b0000;
+  --color-dragon-gold: #c5a059;
+  
+  --color-wave-blue: #1b2a49;
+  --color-wave-cyan: #008b8b;
+  
+  --color-neutral-dim: #a9a9a9;
+}
+
+body {
+  background-color: var(--color-noir-900);
+  color: #eeeeee;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .serif-text {
+  font-family: var(--font-serif);
+}
+
+.mono-text {
+  font-family: var(--font-mono);
+}
