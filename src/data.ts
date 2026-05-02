@@ -25,7 +25,7 @@ export const worldData = {
         image: "/images/regenerated_image_1777748650055.png",
         age: "34세",
         mbti: "INTJ",
-        bloodType: "미상",
+        bloodType: "A형",
         duty: "조직 통제, 상권 분쟁 조정 및 자금 관리 총괄"
       },
       businesses: [
@@ -56,7 +56,7 @@ export const worldData = {
         image: "/images/baekrang.png",
         age: "34세",
         mbti: "ESTP",
-        bloodType: "미상",
+        bloodType: "O형",
         duty: "항구 점거, 밀수 라인 및 유통 통제"
       },
       businesses: [
