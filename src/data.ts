@@ -1,22 +1,3 @@
-import gwonyulImg from './assets/images/regenerated_image_1777748650055.png';
-import gwakdoImg from './assets/images/gwakdo.png';
-import paengImg from './assets/images/paeng.png';
-import meiImg from './assets/images/mei.png';
-import yanghoImg from './assets/images/yangho.png';
-import jinsabuImg from './assets/images/jinsabu.png';
-
-import baekrangImg from './assets/images/baekrang.png';
-import doksaImg from './assets/images/doksa.png';
-import bulgomImg from './assets/images/bulgom.png';
-import jeokhoImg from './assets/images/jeokho.png';
-import wrenchImg from './assets/images/wrench.png';
-import ppiyagiImg from './assets/images/ppiyagi.png';
-
-import haewonImg from './assets/images/haewon.png';
-import sihyunImg from './assets/images/sihyun.png';
-import hongranImg from './assets/images/hongran.png';
-import chunbaeImg from './assets/images/chunbae.png';
-
 export const worldData = {
   title: "2005 월성 차이나타운",
   description: "시대: 2005년, 초고속 인터넷과 슬라이드폰이 보급된 디지털 시대. 치외법권 자치 구역으로 낮엔 평범, 밤엔 범죄가 일어난다. 금룡회는 '도시의 질서와 돈'을, 해조파는 '물류와 흐름'을 장악하며 서로 의존적인 권력 균형 형성하고 있으며, 이들의 갈등 본질은 영역 다툼이 아닌 '흐름과 통제권'을 둘러싼 권력 싸움이다.",
@@ -41,7 +22,7 @@ export const worldData = {
       leader: {
         name: "권율",
         role: "금룡회 두목 / 1인자",
-        image: gwonyulImg,
+        image: "/images/regenerated_image_1777748650055.png",
         age: "34세",
         mbti: "INTJ",
         bloodType: "미상",
@@ -56,11 +37,11 @@ export const worldData = {
         { name: "위장 사업", desc: "금룡대반점 중심 고급 식당 운영으로 합법적 외피 유지" }
       ],
       members: [
-        { name: "곽도", role: "행동대장", image: gwakdoImg, age: "33세", mbti: "ISTJ", bloodType: "A형", duty: "조직원 통솔 및 현장 진압" },
-        { name: "팽 실장", role: "회계 총괄", image: paengImg, age: "42세", mbti: "ESTJ", bloodType: "AB형", duty: "자금 세탁 및 장부 관리" },
-        { name: "메이", role: "암살자", image: meiImg, age: "27세", mbti: "ISTP", bloodType: "B형", duty: "배신자 및 위험 인물 처리" },
-        { name: "양호", role: "운전수 겸 호위", image: yanghoImg, age: "25세", mbti: "ESFJ", bloodType: "O형", duty: "간부 운전 및 철벽 호위" },
-        { name: "진 사부", role: "주방장", image: jinsabuImg, age: "53세", mbti: "ISFJ", bloodType: "A형", duty: "금룡대반점 총괄 주방장 및 비상 시 전투 지원" }
+        { name: "곽도", role: "행동대장", image: "/images/gwakdo.png", age: "33세", mbti: "ISTJ", bloodType: "A형", duty: "조직원 통솔 및 현장 진압" },
+        { name: "팽 실장", role: "회계 총괄", image: "/images/paeng.png", age: "42세", mbti: "ESTJ", bloodType: "AB형", duty: "자금 세탁 및 장부 관리" },
+        { name: "메이", role: "암살자", image: "/images/mei.png", age: "27세", mbti: "ISTP", bloodType: "B형", duty: "배신자 및 위험 인물 처리" },
+        { name: "양호", role: "운전수 겸 호위", image: "/images/yangho.png", age: "25세", mbti: "ESFJ", bloodType: "O형", duty: "간부 운전 및 철벽 호위" },
+        { name: "진 사부", role: "주방장", image: "/images/jinsabu.png", age: "53세", mbti: "ISFJ", bloodType: "A형", duty: "금룡대반점 총괄 주방장 및 비상 시 전투 지원" }
       ]
     },
     {
@@ -72,7 +53,7 @@ export const worldData = {
       leader: {
         name: "백랑",
         role: "해조파 두목 / 1인자",
-        image: baekrangImg,
+        image: "/images/baekrang.png",
         age: "34세",
         mbti: "ESTP",
         bloodType: "미상",
@@ -87,18 +68,18 @@ export const worldData = {
         { name: "정보", desc: "선박 입출항 및 밀수 정보 거래" }
       ],
       members: [
-        { name: "독사", role: "브레인", image: doksaImg, age: "31세", mbti: "ENTJ", bloodType: "A형", duty: "밀수 라인 및 돈 관리 담당" },
-        { name: "불곰", role: "돌격대장", image: bulgomImg, age: "28세", mbti: "ESTP", bloodType: "B형", duty: "항구 현장 통제" },
-        { name: "적호", role: "포주", image: jeokhoImg, age: "33세", mbti: "ESTJ", bloodType: "O형", duty: "해조파 자금줄인 불법 유흥과 자금 세탁 관리" },
-        { name: "렌치", role: "정비 / 무기 밀수", image: wrenchImg, age: "26세", mbti: "INTP", bloodType: "AB형", duty: "무기, 차량, 밀수품 개조 기술자" },
-        { name: "삐약이", role: "막내", image: ppiyagiImg, age: "20세", mbti: "ESFP", bloodType: "O형", duty: "심부름 전담 및 사고 트리거" }
+        { name: "독사", role: "브레인", image: "/images/doksa.png", age: "31세", mbti: "ENTJ", bloodType: "A형", duty: "밀수 라인 및 돈 관리 담당" },
+        { name: "불곰", role: "돌격대장", image: "/images/bulgom.png", age: "28세", mbti: "ESTP", bloodType: "B형", duty: "항구 현장 통제" },
+        { name: "적호", role: "포주", image: "/images/jeokho.png", age: "33세", mbti: "ESTJ", bloodType: "O형", duty: "해조파 자금줄인 불법 유흥과 자금 세탁 관리" },
+        { name: "렌치", role: "정비 / 무기 밀수", image: "/images/wrench.png", age: "26세", mbti: "INTP", bloodType: "AB형", duty: "무기, 차량, 밀수품 개조 기술자" },
+        { name: "삐약이", role: "막내", image: "/images/ppiyagi.png", age: "20세", mbti: "ESFP", bloodType: "O형", duty: "심부름 전담 및 사고 트리거" }
       ]
     }
   ],
   neutrals: [
-    { name: "서해원", role: "천재 해커 / PC방 사장", image: haewonImg, age: "29세", mbti: "INTP", bloodType: "AB형", duty: "CCTV 해킹을 통한 퇴로 확보 및 정보 수집" },
-    { name: "강시현", role: "관할서 강력반 형사", image: sihyunImg, age: "34세", mbti: "ENTP", bloodType: "B형", duty: "양쪽 세력에서 뒷돈을 챙기는 비리 경찰" },
-    { name: "홍란", role: "화양다방 마담", image: hongranImg, age: "33세", mbti: "ENFJ", bloodType: "O형", duty: "정재계 로비스트 및 고급 정보 중개" },
-    { name: "춘배", role: "동네 바보", image: chunbaeImg, age: "27세", mbti: "ENFP", bloodType: "AB형", duty: "이곳저곳을 배회하며 비밀을 노래로 발설" }
+    { name: "서해원", role: "천재 해커 / PC방 사장", image: "/images/haewon.png", age: "29세", mbti: "INTP", bloodType: "AB형", duty: "CCTV 해킹을 통한 퇴로 확보 및 정보 수집" },
+    { name: "강시현", role: "관할서 강력반 형사", image: "/images/sihyun.png", age: "34세", mbti: "ENTP", bloodType: "B형", duty: "양쪽 세력에서 뒷돈을 챙기는 비리 경찰" },
+    { name: "홍란", role: "화양다방 마담", image: "/images/hongran.png", age: "33세", mbti: "ENFJ", bloodType: "O형", duty: "정재계 로비스트 및 고급 정보 중개" },
+    { name: "춘배", role: "동네 바보", image: "/images/chunbae.png", age: "27세", mbti: "ENFP", bloodType: "AB형", duty: "이곳저곳을 배회하며 비밀을 노래로 발설" }
   ]
 };
