@@ -18,7 +18,7 @@ export const worldData = {
       name: "금룡회 (金龍會)",
       type: "전통파",
       theme: "dragon-red",
-      description: "도시의 질서와 돈을 장악하는 보수 세력. 위장 사업인 고급 식당 운영으로 합법적 외피를 유지하며, 차이나타운 내 상권 분쟁을 조정하고 정보와 자금을 통제한다.",
+      description: "",
       leader: {
         name: "권율",
         role: "금룡회 두목 / 1인자",
@@ -49,7 +49,7 @@ export const worldData = {
       name: "해조파 (海潮派)",
       type: "신흥파",
       theme: "wave-blue",
-      description: "물류와 흐름을 장악하는 항구 거점의 신흥 세력. 룰을 깨부수고 이권을 탐하며, 거칠고 통제되지 않는 폭력적인 에너지를 뿜어낸다.",
+      description: "",
       leader: {
         name: "백랑",
         role: "해조파 두목 / 1인자",

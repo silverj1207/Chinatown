@@ -176,16 +176,6 @@ export default function MainTabs() {
                         </div>
 
                         <div className="flex flex-col sm:flex-row gap-6 mb-6">
-                          <div className="w-24 h-28 shrink-0 bg-noir-900 border border-white/10 rounded overflow-hidden relative flex flex-col items-center justify-center text-white/20">
-                            {currentFaction.leader.image ? (
-                              <img src={currentFaction.leader.image} alt={currentFaction.leader.name} className="w-full h-full object-cover" />
-                            ) : (
-                              <>
-                                <User size={32} />
-                                <span className="text-[10px] mt-2 font-mono uppercase tracking-widest text-white/20">Img</span>
-                              </>
-                            )}
-                          </div>
                           <div className="flex-1 py-1">
                             <h4 className="text-3xl lg:text-4xl font-serif mb-2 text-white">
                               {currentFaction.leader.name}
@@ -222,18 +212,6 @@ export default function MainTabs() {
                           transition={{ delay: idx * 0.05 }}
                           className="p-5 bg-noir-800 hover:bg-noir-700 transition-colors border border-white/5 rounded flex flex-col sm:flex-row sm:items-center gap-5 group"
                         >
-                          <div className={`w-full sm:w-20 h-32 sm:h-24 shrink-0 flex flex-col items-center justify-center font-serif bg-black/50 rounded border text-white/20 transition-colors overflow-hidden relative
-                            ${activeTab === 'geumryong' ? 'border-dragon-red/20 group-hover:border-dragon-red/50' : 'border-wave-cyan/20 group-hover:border-wave-cyan/50'}
-                          `}>
-                            {member.image ? (
-                              <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
-                            ) : (
-                              <>
-                                <User size={28} />
-                                <span className="text-[10px] mt-2 font-mono uppercase tracking-widest opacity-50">Img</span>
-                              </>
-                            )}
-                          </div>
                           <div className="flex-1 py-1">
                             <div className="flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-4 mb-3">
                               <h5 className="text-xl md:text-2xl font-bold font-serif text-white/90">{member.name}</h5>
@@ -276,16 +254,6 @@ export default function MainTabs() {
                       transition={{ delay: idx * 0.05 }}
                       className="p-5 bg-noir-800 rounded border border-neutral-600/30 hover:border-neutral-400/60 transition-colors flex flex-col sm:flex-row gap-5 group"
                     >
-                      <div className="w-full sm:w-20 h-32 sm:h-24 shrink-0 rounded bg-black/50 flex flex-col items-center justify-center font-serif text-3xl text-neutral-500 border border-neutral-600/30 group-hover:border-neutral-400/60 transition-colors overflow-hidden relative">
-                        {person.image ? (
-                          <img src={person.image} alt={person.name} className="w-full h-full object-cover" />
-                        ) : (
-                          <>
-                            <User size={28} className="text-neutral-500" />
-                            <span className="text-[10px] mt-2 font-mono uppercase tracking-widest opacity-50">Img</span>
-                          </>
-                        )}
-                      </div>
                       <div className="flex-1 py-1">
                         <div className="flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-4 mb-3">
                           <h4 className="text-xl md:text-2xl font-bold text-white/90 font-serif">{person.name}</h4>
