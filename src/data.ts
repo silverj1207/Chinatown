@@ -1,4 +1,4 @@
-import gwonyulImg from './assets/images/gwonyul.png';
+import gwonyulImg from './assets/images/regenerated_image_1777748650055.png';
 import gwakdoImg from './assets/images/gwakdo.png';
 import paengImg from './assets/images/paeng.png';
 import meiImg from './assets/images/mei.png';
